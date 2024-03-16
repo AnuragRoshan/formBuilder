@@ -380,7 +380,7 @@ input::-webkit-inner-spin-button {
   font-weight: 500;
   margin: auto;
   width: 60%;
-  color: grey;
+  color: rgb(69, 69, 69);
   margin-top: 1rem;
 }
 
@@ -423,4 +423,10 @@ a {
 }
 
 .images img {
+}
+
+.alert {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(0, 37, 82);
 }

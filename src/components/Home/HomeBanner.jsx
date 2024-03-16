@@ -16,6 +16,7 @@ const HomeBanner = () => {
         <Link href="/create">
           <div className="home-btn">Lets Formify</div>
         </Link>
+        <div className="alert">No Signup required</div>
       </div>
       <div className="images">
         <img
