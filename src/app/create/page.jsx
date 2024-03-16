@@ -3,7 +3,7 @@ import FormComponent from "@/components/FormComponent";
 import Modal from "@/components/modal";
 import React, { useState } from "react";
 
-const page = () => {
+function page() {
   const [head, setHead] = useState("Form Title");
   const [modelOpen, setModelOpen] = useState(false);
 
@@ -47,6 +47,6 @@ const page = () => {
       )}
     </>
   );
-};
+}
 
 export default page;
