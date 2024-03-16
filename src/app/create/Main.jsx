@@ -1,5 +1,6 @@
 "use client";
 import FormComponent from "@/components/FormComponent";
+import Modal from "@/components/modal";
 import React, { useState } from "react";
 
 const Main = () => {
