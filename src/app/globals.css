@@ -87,9 +87,81 @@ body {
 .create-content {
   margin-block: 18vh;
   margin-inline: 19vw;
-  padding: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* padding: 2rem; */
+  /* low intensity box shadow */
+  border: 1px solid rgb(203, 203, 203);
   border-radius: 1rem;
+}
+
+.create-content:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.input-head {
+  padding: 2rem;
+}
+
+.create-top-shade {
+  height: 2.5rem;
+  background-color: rgb(216, 216, 216);
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+.date-time {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.date,
+.time {
+  font-size: 0.9rem;
+  color: rgb(91, 91, 91);
+}
+
+.red-dot {
+  background-color: hsl(2.87deg 100% 67.25%);
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.green-dot {
+  background-color: hsl(128.89deg 66.94% 47.45%);
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.yellow-dot {
+  background-color: hsl(41.83deg 100% 59.22%);
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .input-head input {
@@ -234,6 +306,20 @@ body {
   margin-top: 1rem;
 }
 
+.comp-data {
+  display: flex;
+  gap: 1rem;
+}
+
+.trash-icon {
+  display: flex;
+  transition: 0.8s;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  cursor: pointer;
+}
+
 .add-comp {
   font-size: 0.8rem;
   color: rgb(255, 255, 255);
@@ -344,7 +430,7 @@ input::-webkit-inner-spin-button {
 .home-top {
   width: 100%;
 }
-.home-inner-top {
+z .home-inner-top {
   padding: 1rem 3rem;
   display: flex;
   background-color: rgb(242, 242, 242);
